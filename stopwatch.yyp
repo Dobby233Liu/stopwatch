@@ -1,0 +1,38 @@
+{
+  "resourceType": "GMProject",
+  "resourceVersion": "1.6",
+  "name": "stopwatch",
+  "resources": [
+    {"id":{"name":"example","path":"rooms/example/example.yy",},"order":5,},
+    {"id":{"name":"swi","path":"scripts/swi/swi.yy",},"order":6,},
+    {"id":{"name":"How_to_Use","path":"notes/How_to_Use/How_to_Use.yy",},"order":7,},
+    {"id":{"name":"example_timer","path":"objects/example_timer/example_timer.yy",},"order":4,},
+    {"id":{"name":"sw_cfg","path":"scripts/sw_cfg/sw_cfg.yy",},"order":8,},
+    {"id":{"name":"swm","path":"objects/swm/swm.yy",},"order":3,},
+  ],
+  "Options": [
+    {"name":"Windows","path":"options/windows/options_windows.yy",},
+    {"name":"operagx","path":"options/operagx/options_operagx.yy",},
+    {"name":"Main","path":"options/main/options_main.yy",},
+  ],
+  "defaultScriptType": 1,
+  "isEcma": false,
+  "configs": {
+    "name": "Default",
+    "children": [],
+  },
+  "RoomOrderNodes": [
+    {"roomId":{"name":"example","path":"rooms/example/example.yy",},},
+  ],
+  "Folders": [],
+  "AudioGroups": [
+    {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
+  ],
+  "TextureGroups": [
+    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","isScaled":true,"compressFormat":"bz2","loadType":"default","directory":"","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
+  ],
+  "IncludedFiles": [],
+  "MetaData": {
+    "IDEVersion": "2022.11.1.56",
+  },
+}

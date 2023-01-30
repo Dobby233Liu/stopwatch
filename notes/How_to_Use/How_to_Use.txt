@@ -1,0 +1,22 @@
+Import swm, sw_cfg and swi to your project.
+
+Edit sw_cfg however you please.
+
+Then, in the Create events of the objects you want to use the system in,
+put in:
+
+    swi()
+
+To set a timer, do:
+
+    stopwatch[i] = n
+
+When the timer ticks to 0, the Alarm i event is called.
+
+You may also want to use swm.delta_factor in your objects. It is a multiplier
+to (kinda) turn frame-based timers time-based.
+For example:
+
+    x += 1
+    // -->
+    x += 1 * swm.delta_factor
